@@ -106,6 +106,25 @@ When asked "Remove all key mappings before loading preset?" klick "Keep".
 
 - iTerm2 -> Preferences -> tab "Profiles" -> select <your-profile-name> -> Other Actions -> Set as Default
 
+### Install iTerm2 Shell Integration and Utilities
+
+1. Install shell integration by selecting the _iTerm2 -> Install Shell Integration_ menu item. [Learn more](https://iterm2.com/documentation-shell-integration.html)
+2. Leave the checkbox _Also install iTerm2 utilities_ ticked. [Learn more](https://iterm2.com/documentation-utilities.html)
+3. Follow on-screen instructions.
+4. Remember: Shell integration has to be installed for all SSH hosts separately.
+
+This allows us to use the following features, among others:
+
+* **Alert on next mark (get notified when a long running command ends)**
+  > iTerm2 can show an alert box when a mark appears. This is useful when you start a long-running command. Select _Edit>Marks and Annotations>Alert on next mark_ (_Cmd-Opt-A_) after starting a command, and you can go do something else in another window or tab. When the command prompt returns, a modal alert will appear, calling attention to the finished job.
+  >> source: https://iterm2.com/documentation-shell-integration.html
+
+  [Demo / further explanation](https://www.stefanjudis.com/today-i-learned/iterm2-offers-a-way-to-notify-you-when-a-long-running-command-has-finished/)
+
+* **Displays images inline in your terminal**  
+  Use the `imgcat` program to display images inline in your terminal.
+
+
 ## 3. Install Zsh Plugins
 
 ### Install Zsh Plugin: zsh-autoactivate-environment
